@@ -380,6 +380,7 @@ class Sherrif{
             }
         }
         else if (!this.isaiming ) {
+            /*Actually move the sherrif*/
             this.x += xdelta*speed; this.y += ydelta*speed;
             /*check to see if the sherrif is trying to move off screen and prevent it*/
             if (this.y < wall_size+wall_distance_from_top) {
